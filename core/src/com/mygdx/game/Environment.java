@@ -1,12 +1,24 @@
 package com.mygdx.game;
 
 public class Environment {
-    public int time;
+    public int currentTime;
 
     public class Background {
-        public int redValue;
-        public int blueValue;
-        public int greenValue;
-        public int alphaValue;
+        /* The background is rendered in terms of r, b, g, a.
+        We can name a set of periodic functions over time that define the change in color, with each function passing time as an argument.
+        We first have to find these functions.
+         */
+        public int redValue(int time) {
+            return 0;
+        }
+        public int blueValue(int time) {
+            return 0;
+        }
+        public int greenValue(int time) {
+            return 0;
+        }
+        public int alphaValue(int time) {
+            return 0;
+        }
     }
 }
